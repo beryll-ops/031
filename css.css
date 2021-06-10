@@ -81,14 +81,21 @@ TREŚĆ
   font-size: 20px;
 }
 
+/*
+
+STOPKA
+
+*/
 
 .stopka {
   background-color: #2cf4b9;
-  bottom: 0;
+  background-position: center;
+  margin-bottom: 0px;
+  clear: both;
   position: absolute;
+  bottom: 0em;
   text-align: center;
-}
-
-.stopka p {
-  text-align: center;
+  width: 100%;
+  padding-top: 2%;
+  height: 5%;
 }
