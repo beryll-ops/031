@@ -77,10 +77,18 @@ TREŚĆ
 }
 
 .tresc p {
-  
+  font-family: arial;
+  font-size: 20px;
 }
 
 
 .stopka {
+  background-color: #2cf4b9;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
 
+.stopka p {
+  text-align: center;
 }
