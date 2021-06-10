@@ -1,0 +1,43 @@
+body {
+margin: 0;
+}
+
+.baner h1{
+  text-align: center;
+  background-color: #2cf4b9;
+  padding: 40px;
+  margin: 0;
+  font-family: arial;
+}
+
+.baner h2{
+  text-align: center;
+  background-color: #2cf4b9;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  margin: 0;
+  font-family: arial;
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu a {
+  color: black;
+  font-family: arial;
+
+}
+
+.tresc {
+
+}
+
+.stopka {
+
+}
