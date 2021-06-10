@@ -2,11 +2,19 @@ body {
 margin: 0;
 }
 
+/*
+
+
+BANER NA GÓRZE STRONY
+
+
+ */
+
 .baner h1{
   text-align: center;
   background-color: #2cf4b9;
   padding: 40px;
-  margin: 0;
+  margin: 0px;
   font-family: arial;
 }
 
@@ -15,28 +23,55 @@ margin: 0;
   background-color: #2cf4b9;
   padding-top: 35px;
   padding-bottom: 5px;
-  margin: 0;
+  margin: 0px;
   font-family: arial;
 }
 
-.menu {
+/*
+
+MENU
+
+*/
+
+.menu { /*wyrównanie całości menu do środka*/
   text-align: center;
+  margin: 0px;
 }
 
-.menu li{
+.menu ul { /*zmniejszenie marginu wokół całego pasma menu*/
+  margin: 5px;
+}
+
+.menu li{ /*ustalenie wyglądu przycisków menu*/
   display: inline-block;
   text-align: center;
+  background-color: #999999;
+  padding: 10px;
+  margin: 0px;
 }
 
-.menu a {
+.menu a { /*ustalenie wyglądu tekstu na przyciskach*/
   color: black;
   font-family: arial;
-
+  margin: 0px;
+  text-decoration: none;
 }
+
+.menu a:hover {
+  border-style: inset;
+  border-color: #cccccc;
+}
+
+/*
+
+TREŚĆ
+
+*/
 
 .tresc {
-
+  width: 70%;
 }
+
 
 .stopka {
 
