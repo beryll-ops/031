@@ -86,9 +86,13 @@ TREŚĆ
 }
 
 .tresc img {
-  width:100%;
+  position: sticky;
+  width: 100%;
 }
 
+.tresc a {
+  color: black;
+}
 /*
 
 STOPKA
@@ -100,10 +104,11 @@ STOPKA
   background-position: center;
   margin-bottom: 0px;
   clear: both;
-  position: absolute;
+  position: relative;
   bottom: 0em;
   text-align: center;
   width: 100%;
   padding-top: 2%;
+  padding-bottom: 2%;
   height: 5%;
 }
